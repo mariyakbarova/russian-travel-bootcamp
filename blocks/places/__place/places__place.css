@@ -1,13 +1,12 @@
-.place {
+.places__place {
   width: 100%;
   transition: width .5s;
   box-sizing: border-box;
   padding-top: 50px;
-  transition: width .4s;
 }
 
 @media screen and (min-width:425px) {
-  .place {
+  .places__place {
     display: grid;
     grid-template-columns: 1 fr;
     padding-left: 16px;
@@ -16,7 +15,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .place {
+  .places__place {
     max-width: 720px;
     grid-template-columns: 345px 375px;
     margin-left: auto;
@@ -28,7 +27,7 @@
 }
 
 @media screen and (min-width:1024px) {
-  .place {
+  .places__place {
     max-width: 928px;
     grid-template-columns: 440px 456px;
     gap: 48px 32px;
@@ -37,7 +36,7 @@
 }
 
 @media screen and (min-width:1280px) {
-  .place {
+  .places__place {
     max-width: 984px;
     grid-template-columns: 460px 484px;
     gap: 48px 40px;
