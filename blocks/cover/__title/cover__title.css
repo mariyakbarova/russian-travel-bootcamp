@@ -9,7 +9,6 @@
   line-height: 35px;
   text-align: center;
   color: white;
-  transition: max-width 0.3s;
 }
 
 @media screen and (min-width:425px) {

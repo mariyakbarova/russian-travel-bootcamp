@@ -31,6 +31,9 @@
 
 На практике применены знания о HTML.
 
+Проект доступен по ссылке: https://mariyakbarova.github.io/russian-travel-bootcamp/index.html
+
+
 
 
 

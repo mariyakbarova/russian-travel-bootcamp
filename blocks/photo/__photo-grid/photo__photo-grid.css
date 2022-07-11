@@ -2,7 +2,6 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 12px;
-  transition: .6s ease;
 }
 
 @media screen and (min-width:425px) {

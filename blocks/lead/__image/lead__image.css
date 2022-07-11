@@ -4,7 +4,6 @@
   margin-bottom: 8px;
   width: 100%;
   display: block;
-  transition: width .3s;
 }
 
 @media screen and (min-width: 1024px) {

@@ -2,7 +2,6 @@
   box-sizing: border-box;
   padding-left: 16px;
   padding-right: 16px;
-  transition: width .4s;
 }
 
 @media screen and (min-width:425px) {
