@@ -1,0 +1,31 @@
+.place__paragraph {
+  box-sizing: border-box;
+  padding-left: 16px;
+  padding-right: 16px;
+  transition: width .4s;
+}
+
+@media screen and (min-width:425px) {
+  .place__paragraph {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .place__paragraph {
+    padding-left: 28px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (min-width:1024px) {
+  .place__paragraph {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.paragraph__text:last-child {
+  margin-bottom: 0px;
+}

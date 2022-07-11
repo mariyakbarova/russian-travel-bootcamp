@@ -1,0 +1,13 @@
+.header__lang-link{
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+  color: white;
+  margin-top: 30px;
+  text-decoration: none;
+  transition: 0.5s ease;
+}
+
+.header__lang-link:hover{
+  opacity: 0.5;
+}
