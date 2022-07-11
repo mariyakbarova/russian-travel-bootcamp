@@ -1,4 +1,4 @@
-.paragraph__text {
+.place__text {
   margin-block-start: 0;
   margin-block-end: 0;
   margin-left: auto;
@@ -8,4 +8,8 @@
   line-height: 26px;
   font-weight: 400;
   margin-bottom: 26px;
+}
+
+.place__text:last-child {
+  margin-bottom: 0px;
 }
