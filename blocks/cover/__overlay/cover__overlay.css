@@ -1,11 +1,29 @@
 .cover__overlay{
   box-sizing: border-box;
-  padding-top: 33px;
+  padding: 33px 16px;
   display: block;
   text-decoration: none;
   background-color: rgba(42, 44, 47, 0.3);
   width: 100%;
   height: 100%;
+}
+
+@media screen and (max-width:768px) {
+  .cover__overlay{
+    padding: 115px 104px;
+  }
+}
+
+@media screen and (max-width:1020px) {
+  .cover__overlay{
+    padding: 195px 232px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .cover__overlay{
+    padding: 245px 312px;
+  }
 }
 
 .cover__overlay:hover {
