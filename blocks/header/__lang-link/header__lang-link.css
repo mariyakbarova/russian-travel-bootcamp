@@ -1,13 +1,19 @@
 .header__lang-link{
-  margin-block-start: 0;
-  margin-block-end: 0;
-  padding-inline-start: 0;
   color: white;
-  margin-top: 30px;
   text-decoration: none;
   transition: 0.5s ease;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .header__lang-link:hover{
   opacity: 0.5;
+}
+
+@media screen and (min-width: 768px){
+  .header__lang-links{
+    font-size: 24px;
+    line-height: 28px;
+  }
 }
