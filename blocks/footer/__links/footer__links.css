@@ -1,21 +1,22 @@
 .footer__links {
   margin: 0;
-  padding: 0;
   display: grid;
   grid-template-columns: 186px;
-  grid-template-rows: 5fr;
+  grid-template-rows: 1fr;
   gap: 32px;
   list-style: none;
   box-sizing: border-box;
-  padding-bottom: 48px;
+  padding: 0 0 48px 0;
 }
-
 
 @media screen and (min-width:768px) {
   .footer__links {
+    gap: unset;
+    display: flex;
     padding-bottom: 0;
-    grid-template-columns: 50px 57px repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    gap: 18px;
+  }
+
+  .footer__links li {
+    margin-right: 18px;
   }
 }
